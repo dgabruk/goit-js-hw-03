@@ -3,8 +3,8 @@
 
 function slugify(title) {
     const downSlug = title.toLowerCase();
-    const titleArray = downSlug.split(" ");
-    const slug = titleArray.join("-");
+    const titleArray = downSlug.split(' ');
+    const slug = titleArray.join('-');
 return slug;
 
 }
